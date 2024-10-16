@@ -1,1 +1,13 @@
-print('hello world')
+#A simple code that roughly estimates how many days you are old.(Its counts every month as having 30 days beacuse ı couldnt do one that counts for each changing month days and years but ı saw .datime library i will definitly
+learn this and after maybe 1-2 days and implement the new version here.
+
+Birth_day = int(input('What day did you born?'))
+Birth_month = int(input('What month you born?'))
+Birth_year = int(input('What year did you born?'))
+
+a = 365 - (Birth_month-1)*30 + Birth_day
+b = 365 *(2024-Birth_year-1)
+c = 9* 30 + 16
+
+total_days_lived = a+b+c
+print(total_days_lived)
